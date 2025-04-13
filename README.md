@@ -25,7 +25,58 @@ A new benchmark for measuring LLM's capability to detect bugs in large codebase.
 Answer: 4, missing_parenthesis
 ```
 
+### Results
 
+- *All models were evaluated on their latest versions.
+
+> Comparison (Target Depth @ 0.5)
+
+<img src="./stats/other/results_with_codestral_and_codeqwen15/bics_agg_depth_050_with_codestral_and_codeqwen15_result.png" width="500"/>
+
+> GPT-4o
+
+<img src="./stats/gpt_4o/bics_gpt_4o_result.png" width="500"/>
+
+> GPT-4-Turbo
+
+<img src="./stats/gpt_4_turbo/bics_gpt_4_turbo_result.png" width="500"/>
+
+> Claude 3 Opus
+
+<img src="./stats/claude_3_opus/bics_claude_3_opus_result.png" width="500"/>
+
+> Gemini 1.5 Pro
+
+<img src="./stats/gemini_15_pro/bics_gemini_15_pro_result.png" width="500"/>
+
+> Gemini 1.5 Flash
+
+<img src="./stats/gemini_15_flash/bics_gemini_15_flash_result.png" width="500"/>
+
+> GPT-3.5-Turbo
+
+<img src="./stats/gpt_35_turbo/bics_gpt_35_turbo_result.png" width="500"/>
+
+> Codestral
+
+<img src="./stats/codestral/bics_codestral_result.png" width="500"/>
+
+
+> Llama3-70B
+
+<img src="./stats/llama3_70b/bics_llama3_70b_result.png" width="500"/>
+
+> Command-R+
+
+<img src="./stats/command_r_plus/bics_command_r_plus_result.png" width="500"/>
+
+> Gemini-1.0-Pro
+
+<img src="./stats/gemini_10_pro/bics_gemini_10_pro_result.png" width="500"/>
+
+> CodeQwen1.5 (Zero-Shot)
+
+<img src="./stats/codeqwen15_zero_shot/bics_codeqwen15_zero_shot_result.png" width="500"/>
 
 ### Notebooks
 
@@ -45,3 +96,7 @@ Answer: 4, missing_parenthesis
 ### Dataset
 
 - `datasets/bug_in_the_code_stack_alpaca_dataset.csv` is the preprocessed dataset used for the experiment.
+
+### Google Drive
+
+- All notebooks and datasets can also be found at [Bug In The Code Stack Google Drive](https://drive.google.com/drive/folders/10rakicr-iQ-zIY8SwllAVawgUWqN9roE). If you don't have access, please request access to `techandy42@gmail.com`. 
