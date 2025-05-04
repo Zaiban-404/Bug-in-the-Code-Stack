@@ -1,6 +1,6 @@
 # Bug In The Code Stack
 
-<img src="./media/bug_in_the_haystack_logo.png" width="100">
+
 
 A new benchmark for measuring LLM's capability to detect bugs in large codebase.
 
